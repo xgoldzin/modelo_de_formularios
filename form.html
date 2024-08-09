@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<main>
+    <body>
+        <header>
+            <p>SISTEMA DE GESTÃO ACADÊMICA</p>
+        </header>
+    <h5>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h5>
+    <form>
+        <label for="flogin">Login:</label><br>
+        <input type="text" id="flogin" name="flogin"><br>
+        
+        <label for="snh">Senha:</label><br>
+        <input type="senha" id="snh" name="snh"><br>
+        <br>
+        <label for="status">Status:</label>
+        <select name="status" id="status">
+        <option value="inativo">Inativo</option>
+        <option value="ativo">Ativo</option>
+        </select>
+        <br>
+        <p>Tipo:</p>
+        <input type="radio" id="tecnico" name="tipo" value="tecnico">
+        <label for="tecnico">Ténico</label>
+        <input type="radio" id="professor" name="tipo" value="professor">
+        <label for="professor">Professor</label>
+        <input type="radio" id="aluno" name="tipo" value="aluno">
+        <label for="aluno">Aluno</label>
+        <br>
+        <br>
+        <label for="birthday">Data Criação:</label>
+        <input type="date" id="birthday" name="birthday">
+        <br>
+        <p>Perfil:</p>
+        <input type="radio" id="convidado" name="perfil" value="convidado">
+        <label for="tecnico">Convidado</label>
+        <input type="radio" id="adm" name="perfil" value="adm">
+        <label for="professor">Administrador</label>
+        <br>
+        <p>Observações</p><textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+        <br>
+        <p>Módulos</p>
+        <input type="checkbox" id="compras" name="compras" value="compras">
+        <label for="compras"> Compras </label>
+        <input type="checkbox" id="biblioteca" name="biblioteca" value="biblioteca">
+        <label for="biblioteca"> Biblioteca</label>
+        <input type="checkbox" id="academico" name="academico" value="academico">
+        <label for="academico"> Acadêmico </label><br>
+        <input type="checkbox" id="documentacao" name="documentacao" value="documentacao">
+        <label for="documentacao"> Documentação </label>
+        <input type="checkbox" id="rechumanos" name="rechumanos" value="rechumanos">
+        <label for="rechumanos"> Recursos Humanos </label><br>
+        <br>
+        <input type="button" onclick="alert('Cadastrado com Sucesso')" value="Cadastrar">
+        <input type="button" onclick="alert('Excluido com Sucesso')" value="Excluir">
+    </form>
+    </body>
+</main>
+
+</html>

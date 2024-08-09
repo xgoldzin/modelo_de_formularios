@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<main>
+    <body>
+        <p><strong>Cadastro Geral</strong></p>
+        <p><strong>Dados Pessoais</strong></p>
+        <hr>
+        <form>
+            <label for="ncomplete">Nome Completo:</label><br>
+            <input type="text" id="ncomplete" name="ncomplete"><br>
+            <br>
+
+            <label for="cars">Profissão:</label>
+            <br>
+            <select name="cars" id="cars">
+            <option value="suaprofissao">Designer</option>
+            <option value="suaprofissao">Programador</option>
+            <option value="suaprofissao">Uber</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+            <p><strong>Localização</strong></p>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="rua">Rua:</label><br>
+            <input type="rua" id="rua" name="rua"><br>
+            <br>
+            <br>
+            <hr>
+            <p><strong>Faixa etária</strong></p>
+            <input type="radio" id="ate20" name="faixa" value="ate20">
+            <label for="ate20">até 20 anos</label>
+            <input type="radio" id="m40a50" name="faixa" value="m40a50">
+            <label for="m40a50">mais de 40 até 50 anos</label><br>
+            <input type="radio" id="m20a30" name="faixa" value="m20a30">
+            <label for="m20a30">mais de 20 até 30 anos</label>
+            <input type="radio" id="m50a60" name="faixa" value="m50a60">
+            <label for="m50a60">mais de 50 até 60 anos</label><br>
+            <input type="radio" id="m30a40" name="faixa" value="m30a40">
+            <label for="m30a40">mais de 30 até 40 anos</label>
+            <input type="radio" id="m60" name="faixa" value="m60">
+            <label for="m60">mais 60 anos</label>
+            <br>
+            <br>
+            <hr>
+            <p><strong>Esportes que pratica</strong></p>
+            <input type="checkbox" id="futcamp" name="futcamp" value="futcamp">
+            <label for="futcamp"> Futebol de Campo</label><br>
+            <input type="checkbox" id="futsal" name="futsal" value="futsal">
+            <label for="futsal"> Futebol de Salão</label><br>
+            <input type="checkbox" id="futsoc" name="futsoc" value="futsoc">
+            <label for="futsoc"> Futebol Society</label><br>
+            <input type="checkbox" id="volleyquad" name="futsoc" value="volleyquad">
+            <label for="volleyquad"> Volley de Quadra</label><br>
+            <input type="checkbox" id="volleypraia" name="futsoc" value="volleypraia">
+            <label for="volleypraia"> Volley de Praia</label><br>
+            <input type="checkbox" id="natmepisc" name="natmepisc" value="natmepisc">
+            <label for="natmepisc"> Natação em Piscina</label><br>
+            <input type="checkbox" id="natmar" name="natmepisc" value="natmar">
+            <label for="natmar"> Natação em Mar Aberto</label><br>
+            <br> 
+            <hr>
+            <p><strong>Comentário</strong></p>
+            <p>Mensagem</p><textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+            <hr>
+            <input type="button" onclick="alert('Enviado com Sucesso!')" value="Enviar">
+            <input type="button" onclick="alert('Limpado com Sucesso!')" value="Limpar">
+        </form>
+    </body>
+</main>
+
+</html>
